@@ -58,6 +58,7 @@ function createConfig() {
       transport: "SMTP",
       options: {
         service: "Mailgun",
+        host: "smtp.eu.mailgun.org",
         auth: {
           user: process.env.MAILGUN_SMTP_LOGIN,
           pass: process.env.MAILGUN_SMTP_PASSWORD,
