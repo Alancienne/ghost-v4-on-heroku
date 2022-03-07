@@ -70,8 +70,8 @@ function createConfig() {
     database: {
       client: "mysql",
       connection: getMysqlConfig(envValues.mysqlDatabaseUrl),
-      pool: { min: 0, max: 13 },
-      debug: false,
+      pool: { min: 0, max: 10 },
+      debug: true,
     },
     server: {
       host: "0.0.0.0",
