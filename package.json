@@ -32,6 +32,6 @@
   },
   "scripts": {
     "start": "node thelovekesh.js",
-    "postinstall": "bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh"
+    "postinstall": "bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh && bash bin/default-routes.sh"
   }
 }
