@@ -5,9 +5,9 @@
 
 version: 2
 registries:
-  inros-github:
+  full-access-github:
     type: git
-    url: https://github.com/Alancienne/Inros
+    url: https://github.com/
     username: aparakian
     password: ${{secrets.INROS_ACCESS}}
 updates:
