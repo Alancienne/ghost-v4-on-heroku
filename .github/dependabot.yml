@@ -4,8 +4,16 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+registries:
+  inros-github:
+    type: git
+    url: https://github.com/Alancienne/Inros
+    username: aparakian
+    password: ${{secrets.INROS_ACCESS}}
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries:
+      - inros-github # Allow version updates for dependencies in this registry
     schedule:
       interval: "daily"
