@@ -18,14 +18,13 @@
     "url": "https://github.com/thelovekesh/ghost-v4-on-heroku/issues"
   },
   "homepage": "https://github.com/thelovekesh/ghost-v4-on-heroku#readme",
-  "engines": {
-    "node": "14.X"
-  },
+
   "dependencies": {
     "casper": "github:TryGhost/Casper#main",
     "ghost": "^4.48.4",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.2.4",
+    "inros": "git+ssh://git@github.com:Alancienne/Inros.git",
     "lyra": "github:TryGhost/lyra#main",
     "mysql": "^2.18.1",
     "inros": "git+ssh://git@github.com:Alancienne/Inros.git"
