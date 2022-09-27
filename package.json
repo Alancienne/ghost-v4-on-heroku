@@ -28,8 +28,7 @@
     "ghost-storage-cloudinary": "^2.2.4",
     "inros": "git+ssh://git@github.com:Alancienne/Inros.git",
     "lyra": "github:TryGhost/lyra#main",
-    "mysql": "^2.18.1",
-    "inros": "git+ssh://git@github.com:Alancienne/Inros.git"
+    "mysql": "^2.18.1"
   },
   "scripts": {
     "start": "node thelovekesh.js",
