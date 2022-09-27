@@ -58,6 +58,7 @@ function createConfig() {
       transport: "SMTP",
       options: {
         service: "Mailgun",
+        host: "smtp.eu.mailgun.org",
         auth: {
           user: process.env.MAILGUN_SMTP_LOGIN,
           pass: process.env.MAILGUN_SMTP_PASSWORD,
@@ -69,8 +70,8 @@ function createConfig() {
     database: {
       client: "mysql",
       connection: getMysqlConfig(envValues.mysqlDatabaseUrl),
-      pool: { min: 0, max: 5 },
-      debug: false,
+      pool: { min: 0, max: 10 },
+      debug: true,
     },
     server: {
       host: "0.0.0.0",
