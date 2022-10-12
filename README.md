@@ -1,3 +1,17 @@
+# Updating Ghost from the original repo
+
+```console
+git fetch upstream
+git merge upstream/main
+```
+
+Resolve conflicts and update package-lock.json
+
+```console
+npm install
+```
+Be sure that the version of your package.json match the version of Ghost
+
 # [Ghost 4.X](https://github.com/TryGhost/Ghost) on [Heroku](https://heroku.com)
 > Notice: If you are getting a Heroku policy error please refer to this [discussion](https://github.com/thelovekesh/ghost-v4-on-heroku/discussions/24).
 
